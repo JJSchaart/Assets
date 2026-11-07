@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "legacy_type_labels": {
+    "1": "Betalingen",
+    "2": "Verzending & logistiek",
+    "3": "Marketing",
+    "4": "Reviews & vertrouwen",
+    "5": "Social media & communicatie",
+    "6": "Boekhouding & administratie",
+    "7": "Platformen, productdata & content"
+  },
+  "compatibility_note": "De bestaande numerieke type- en group-waarden in apps.json blijven behouden. De admin filtert op type. Dit bestand is een afzonderlijke, fijnere functionele indeling op basis van app-id; gebruik category_id als sleutel bij implementatie van de nieuwe groepering.",
+  "groups": [
+    {
+      "category_id": "payment-providers",
+      "name": "Betaalproviders",
+      "legacy_type": 1,
+      "app_ids": [
+        1,
+        4,
+        100,
+        500,
+        700,
+        40014,
+        100004,
+        100005,
+        100006,
+        100021,
+        100022,
+        100024,
+        100032
+      ]
+    },
+    {
+      "category_id": "legacy-payments",
+      "name": "Betaalproviders — bestaande aansluitingen",
+      "legacy_type": 1,
+      "app_ids": [
+        6,
+        40005
+      ]
+    },
+    {
+      "category_id": "manual-payments",
+      "name": "Handmatige betaalmethoden",
+      "legacy_type": 1,
+      "app_ids": [
+        10,
+        600
+      ]
+    },
+    {
+      "category_id": "shipping-carriers",
+      "name": "Vervoerders",
+      "legacy_type": 2,
+      "app_ids": [
+        5001,
+        5002,
+        99999,
+        100012,
+        100016,
+        100027,
+        100028,
+        100031,
+        100033,
+        100034,
+        100038
+      ]
+    },
+    {
+      "category_id": "shipping-platforms",
+      "name": "Verzendplatformen",
+      "legacy_type": 2,
+      "app_ids": [
+        5003,
+        5004,
+        5005,
+        5006,
+        40017,
+        40018,
+        40021,
+        100014,
+        100015,
+        100019,
+        100026,
+        100035,
+        100036
+      ]
+    },
+    {
+      "category_id": "email-marketing",
+      "name": "E-mailmarketing",
+      "legacy_type": 3,
+      "app_ids": [
+        20000,
+        20001,
+        20003,
+        40003,
+        40016
+      ]
+    },
+    {
+      "category_id": "reviews",
+      "name": "Reviews & vertrouwen",
+      "legacy_type": 4,
+      "app_ids": [
+        40000,
+        40001,
+        100009,
+        100025
+      ]
+    },
+    {
+      "category_id": "social-media",
+      "name": "Social media",
+      "legacy_type": 5,
+      "app_ids": [
+        40006,
+        40007,
+        40009,
+        40013,
+        100010
+      ]
+    },
+    {
+      "category_id": "discontinued",
+      "name": "Beëindigde integraties",
+      "legacy_type": 5,
+      "app_ids": [
+        40011
+      ]
+    },
+    {
+      "category_id": "accounting",
+      "name": "Boekhouding & administratie",
+      "legacy_type": 6,
+      "app_ids": [
+        40015,
+        100001,
+        100002,
+        100017,
+        100029
+      ]
+    },
+    {
+      "category_id": "messaging",
+      "name": "Klantcommunicatie",
+      "legacy_type": 5,
+      "app_ids": [
+        100000
+      ]
+    },
+    {
+      "category_id": "marketplaces",
+      "name": "Marketplaces & advertentiekanalen",
+      "legacy_type": 7,
+      "app_ids": [
+        100011,
+        100020
+      ]
+    },
+    {
+      "category_id": "personalization",
+      "name": "Marketing & personalisatie",
+      "legacy_type": 3,
+      "app_ids": [
+        100018
+      ]
+    },
+    {
+      "category_id": "shipping-software",
+      "name": "Logistieke software & labels",
+      "legacy_type": 2,
+      "app_ids": [
+        100023,
+        100039
+      ]
+    },
+    {
+      "category_id": "product-data",
+      "name": "Leveranciers- & productdata",
+      "legacy_type": 7,
+      "app_ids": [
+        100030
+      ]
+    },
+    {
+      "category_id": "content-translation",
+      "name": "Content & vertalingen",
+      "legacy_type": 7,
+      "app_ids": [
+        100037
+      ]
+    }
+  ]
+}
